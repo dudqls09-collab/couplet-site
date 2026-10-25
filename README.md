@@ -1,6 +1,5 @@
-# Twinline site
+# Twinline privacy policy
 
-Public support and privacy pages for the Twinline Chrome extension.
+Public privacy policy required for the Twinline Chrome extension's local handling of subtitle, playback, and settings data.
 
-- Home: `index.html`
 - Privacy policy: `privacy.html`
