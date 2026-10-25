@@ -1,3 +1,3 @@
 # couplet-site
 
-Public pages for the Couplet Chrome extension. Being rebuilt.
+Public privacy policy for the Couplet Chrome extension: https://dudqls09-collab.github.io/couplet-site/privacy.html
