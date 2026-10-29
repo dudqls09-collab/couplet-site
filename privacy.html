@@ -14,7 +14,7 @@ h2 { font-size: 19px; margin-top: 32px; }
 <body>
 
 <h1>Couplet Privacy Policy</h1>
-<p>Last updated: October 26, 2026</p>
+<p>Last updated: October 29, 2026</p>
 
 <h2>Data Used</h2>
 <p>Couplet reads Netflix subtitle tracks, subtitle text, title IDs,
@@ -31,7 +31,11 @@ contents on your device.</p>
   <li>Preferences for up to 30 titles, including title IDs, save
   timestamps, subtitle selections, and timing adjustments</li>
   <li>Filenames, parsed subtitle contents, and synchronization
-  information for subtitle files you open</li>
+  information for subtitle files you open or download with online
+  subtitle search</li>
+  <li>For online subtitle search: Netflix title ID or title text matched
+  to an IMDb ID (kept up to 30 days), and the remaining daily download
+  count reported by OpenSubtitles</li>
 </ul>
 <p>Netflix subtitle text is held in memory during use. Video quality
 fallback settings are stored in the Netflix tab's session storage.</p>
@@ -42,13 +46,39 @@ Netflix page. These requests go to the subtitle delivery servers and
 are subject to the receiving service's data practices.</p>
 <p>Subtitle files you open from your device are not uploaded.</p>
 
+<h2>Online Subtitle Search</h2>
+<p>Online subtitle search is optional. It sends nothing until you
+open it from the subtitle menu and allow access to the sites below.
+When you use it, Couplet sends only what it needs to find subtitles
+for the title you are watching:</p>
+<ul>
+  <li>Wikidata (query.wikidata.org): the Netflix title ID, or the
+  title and year shown on screen, or text you type, to find the
+  title's IMDb ID</li>
+  <li>OpenSubtitles (opensubtitles.com): the IMDb ID, season, episode,
+  chosen language, and any title you type, to search for and download
+  subtitles</li>
+  <li>Stremio's OpenSubtitles mirror (strem.io): the IMDb ID, season,
+  episode, and language, only when OpenSubtitles cannot provide the
+  file</li>
+</ul>
+<p>Couplet does not send your Netflix account details, the list of titles you have watched, or
+subtitle files to these services. Like any website, they receive your
+IP address and the request itself, and handle it under their own
+policies:
+<a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikimedia</a>,
+<a href="https://www.opensubtitles.com/en/privacy">OpenSubtitles</a>,
+<a href="https://www.stremio.com/privacy">Stremio</a>.
+You can remove access at any time in Chrome's extension settings.</p>
+
 <h2>Data Sharing</h2>
 <p>Couplet does not send user data to developer-operated servers.
 The developer does not receive your settings, title records, or
 subtitle files through the extension.</p>
 <p>Couplet uses no analytics or advertising tools. It does not sell
 user data or use it for advertising, credit decisions, or purposes
-unrelated to its stated features.</p>
+unrelated to its stated features. Data sent for online subtitle
+search is used only to provide that feature.</p>
 
 <h2>Retention and Deletion</h2>
 <p>General settings remain until changed or removed. Title-specific
